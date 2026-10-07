@@ -60,6 +60,19 @@
       line-height:1.45;
     }
     .helper-box strong{color:var(--pink)}
+    .workshop-note{
+      margin:22px 0 8px;
+      padding:16px 18px;
+      border:1px solid rgba(255,120,180,.45);
+      border-radius:18px;
+      background:rgba(42,20,31,.78);
+      backdrop-filter:blur(3px);
+      color:#f3dde7;
+      font-size:13px;
+      line-height:1.55;
+      max-width:100%;
+    }
+    .workshop-note strong{color:var(--pink)}
     .chip{
       padding:10px 13px;border-radius:999px;border:1px solid var(--line);color:var(--muted);
       background:transparent;font-size:13px;font-weight:700;cursor:pointer
@@ -120,7 +133,14 @@
         <button class="primary" id="generate">GIVE ME A PROMPT</button>
         <button class="secondary" id="copy">COPY</button>
       </div>
-<div class="footer">
+
+      <div class="workshop-note">
+        <strong>For Make It Yours workshop attendees only 💕</strong><br>
+        This tool is only intended for people who have attended my workshop, so please do not share this link with anyone else.<br><br>
+        If you found this tool useful in any of your freestyles, I would LOVE to see!! So feel free to tag me on Instagram at <strong>@livvylou___</strong> &lt;3
+      </div>
+
+      <div class="footer">
         <span>Use it in freestyle, combos, drills or whenever your brain goes blank.</span>
         <span class="mini">@livvylou___</span>
       </div>
@@ -240,27 +260,22 @@ const prompts = [
   {c:"Structure",t:"Plan your next minute using: around the pole → basework → trick → floorwork."},
 
   // SPICY
-  {c:"Spicy",t:"Explore your filthy side without using any self touch. Use your gaze, breath, face, stillness or the space around the pole instead."},
+  {c:"Spicy",t:"Explore your spicy side without using any self touch. Use your gaze, breath, face, stillness or the space around the pole instead."},
   {c:"Spicy",t:"Think about how you like to be touched and bring that same feeling into your movement."},
   {c:"Spicy",t:"Play with different textures of self touch. Try soft, grabby, scratchy, lingering, bitey or hesitant."},
-  {c:"Spicy",t:"Pick one type of self touch and use only that for a whole section."},
-  {c:"Spicy",t:"Take the same self touch pathway and try it three different ways."},
-  {c:"Spicy",t:"Use your breath on purpose for a whole section. Let us see the inhale, exhale or pause."},
-  {c:"Spicy",t:"Stay in one pose for 20 seconds and keep it alive with your breath, gaze and tiny movements."},
+  {c:"Spicy",t:"Play with your breath to communicate spiciness. Try different ways of breathing and notice how each one changes the feeling of the movement."},
   {c:"Spicy",t:"Add tiny movements into a static pose. Think little bends, pulses, soft squats or weight shifts."},
   {c:"Spicy",t:"Play with ways to spice up a basic pole walk. Change the pace, posture, gaze, direction or intention."},
-  {c:"Spicy",t:"Use your face as the main focus for one section."},
-  {c:"Spicy",t:"Play with eye contact and breaking eye contact. Choose when you want the audience and when you do not."},
+  {c:"Spicy",t:"Use your face as the main focus for one section. Play with your eyes, mouth, teeth and tongue and see how they change what you are communicating."},
+  {c:"Spicy",t:"Explore how you use your eyes. Play with eye contact, but also think about exactly where your eyes go when you break it."},
   {c:"Spicy",t:"Use your hair as part of the movement. Let it hide, reveal, frame or interrupt."},
-  {c:"Spicy",t:"Remove one item of clothing and make the removal part of the dance instead of stopping to do it."},
+  {c:"Spicy",t:"Spend an entire song removing one item of clothing. Find as many ways as you can to delay, tease and make the removal part of the dance."},
   {c:"Spicy",t:"Build anticipation. Set up a movement, delay it, then decide whether you actually give the audience what they expected."},
   {c:"Spicy",t:"Dance close to the pole without touching it straight away. Use the space between you and the pole to build tension."},
   {c:"Spicy",t:"Take one simple movement and strip it right back. Let the little details do the work."},
   {c:"Spicy",t:"Pick one part of your body and draw attention to it without touching it."},
-  {c:"Spicy",t:"Play with inviting and withholding. Give them something, then pull it back."},
-  {c:"Spicy",t:"Take a movement that does not normally feel spicy to you and find a way to make it feel like your version of filth."},
-  {c:"Spicy",t:"Create 30 seconds using only simple movement, self touch, breath, gaze and pauses. No tricks."},
-  {c:"Spicy",t:"Pick a position that you or the person you are dancing for enjoys. Pair it with one of your favourite pole moves or tricks and find a way to suggest that position within the shape."},
+  {c:"Spicy",t:"Take a movement that does not normally feel spicy to you and find a way to make it feel like your version of spicy."},
+  {c:"Spicy",t:"Pick a spicy position that you or the person you are dancing for enjoys. Pair it with one of your favourite pole moves or tricks and find a way to suggest that position within the shape."},
   {c:"Spicy",t:"Choose a pose and imagine someone doing something to you while you are in it. Use your breath, face and reaction to show what is happening without changing the pose."},
   {c:"Spicy",t:"Use self touch like foreplay. Tease before you touch. Hover, pause, pull away and build anticipation before making contact."},
 
